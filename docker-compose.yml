@@ -4,7 +4,7 @@ services:
     image: weilueluo/hackathon-sample-app-frontend
     build: ./hackathon-app-frontend
     ports: 
-      - 80:4200
+      - 80:80
   backend:
     image: weilueluo/hackathon-sample-app-backend
     build: ./hackathon-app-backend
