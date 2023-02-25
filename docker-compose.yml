@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  frontend:
+    image: weilueluo/hackathon-sample-app-frontend
+    build: ./hackathon-app-frontend
+    ports: 
+      - 80:4200
+  backend:
+    image: weilueluo/hackathon-sample-app-backend
+    build: ./hackathon-app-backend
+    ports:
+      - 3000:3000

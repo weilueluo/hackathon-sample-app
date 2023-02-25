@@ -1,0 +1,6 @@
+[submodule "hackathon-sample-app-frontend"]
+	path = hackathon-sample-app-frontend
+	url = https://github.com/weilueluo/hackathon-sample-app-frontend.git
+[submodule "hackathon-sample-app-backend"]
+	path = hackathon-sample-app-backend
+	url = https://github.com/weilueluo/hackathon-sample-app-backend.git
